@@ -11,3 +11,4 @@ FROM data_employee de, data_grade_employee dge
 WHERE dge.dge_de_id= de.de_id
 GROUP BY de.de_position
 ORDER BY total_salary ASC;
+
